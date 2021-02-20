@@ -15,3 +15,6 @@ npm install hexo-generator-sitemap --save
 npm install hexo-generator-baidu-sitemap --save
 ```
 
+
+
+**值得注意的是：必须有一篇文章才能正常访问**
