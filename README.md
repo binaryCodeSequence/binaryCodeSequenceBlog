@@ -17,4 +17,4 @@ npm install hexo-generator-baidu-sitemap --save
 
 
 
-**值得注意的是：必须有一篇文章才能正常访问**
+**值得注意的是：必须有一篇文章才能正常访问，并且需要添加 `source\_posts` 文件** 
