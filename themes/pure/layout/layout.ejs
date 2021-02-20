@@ -9,7 +9,12 @@
   if (theme.config.skin) {
     bodyClass += ' ' + theme.config.skin;
   }
-	bodyClass = page.sidebar === 'none' ? (bodyClass + ' no-sidebar') : bodyClass;
+  if(page.path === 'about/index.html') {
+    bodyClass = page.sidebar === 'none' ? (bodyClass + ' no-sidebar') : bodyClass;
+  } else {
+    bodyClass =  (bodyClass + ' no-sidebar');
+  }
+	
 %>
 <body class="<%= bodyClass %>" itemscope itemtype="http://schema.org/WebPage">
   <%- partial('_common/header', null, {cache: !config.relative_link}) %>
